@@ -1,0 +1,7 @@
+= Critical Aspects <critical_aspects>
+
+The architecture presented in the previous section is not scalable since running multiple tests in parallel would require to use multiple smartphones and monitors at the same time. Moreover setting up all the equipment is not trivial and the results of the tests may differ because different devices has been used. These limitations slow the process of finding new vulnerabilities in the apps under test.
+
+Conducting extended tests on applications using a physical smartphone revealed a sporadic issue of camera overheating, which significantly impeded the continuity of the entire testing process. This overheating problem, in addition to slowing down the testing process, also made it necessary to make a distinciton between crashes caused by QRs and crashes caused by camera overheating.
+
+Due to differnt programming languages used in the development of the QR Code Fuzzer and QR Generator, coordinating them is not a straightforward task. To overcome this challenge, a JSON file is used as a means of communication and synchronization between the QR Code Fuzzer and the QR Code Generator. However, relying solely on a JSON file for communication introduces potential drawbacks such as increased latency and complexity, as well as the risk of data inconsistency or loss due to manual handling.
