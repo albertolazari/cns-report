@@ -8,6 +8,8 @@ Thestarting point of our project is _QRFuzz_ by @QRFuzz, which is made of the fo
 
 - *QR Code Generator*: The QR Code Generator is another crucial component of QRFuzz. Its primary function is to dynamically produce QR codes using a predefined dictionary and display them on the screen. This generator is capable of creating both standard, general-purpose QR codes and custom codes based on an application-specific template.
 
+#v(2em)
+
 == Workflow
 
 The workflow of the system (@old_workflow) can be summarized by the following steps:
